@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1{
+  color: rgb(43, 43, 43);
+}
+
+.calculator{
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 350px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.display{
+  display: flex;
+  width: 400px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  text-align: right;
+  justify-content: center;
+  font-size: xx-large;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.leftSide{
+  flex: 75%;
+  height: 100%;
+  background-color: black;
+  border-bottom-left-radius: 10px;
+}
+
+.rightSide{
+  flex: 25%;
+  height: 100%;
+  background-color: black;
+  border-bottom-right-radius: 10px;
+}
+
+.operationsTop{
+  display: flex;
+  flex-direction: row;
+}
+
+.clearButton{
+  background-color: chocolate;
+  color: white;
+  font-size: xx-large;
+  width: 166.67px;
+  height: 78px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 80px;
+  margin-bottom: 10px;
+  margin-top: 6px;
+  margin-left: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.clearButton:hover{
+  opacity: 0.8;
+}
+
+.equalButton{
+  background-color: chocolate;
+  color: white;
+  font-size: xx-large;
+  width:83.3px;
+  height: 78px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 80px;
+  margin-bottom: 10px;
+  margin-top: 6px;
+  margin-left: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.equalButton:hover{
+  opacity: 0.8;
+}
+
+.numbers, operators{
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+}
+
+#indivNumbers{
+  background-color: rgb(83, 83, 83);
+  color: white;
+  font-size: xx-large;
+  width: 78px;
+  height: 78px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 80px;
+  margin: 1px;
+  margin-left: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#indivNumbers:hover{
+  opacity: 0.8;
+}
+
+#indivOperators{
+  background-color: chocolate;
+  color: white;
+  font-size: xx-large;
+  width: 78px;
+  height: 78px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 80px;
+  margin-right: 10px;
+  margin-top: 6px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#indivOperators:hover{
+  opacity: 0.8;
+}
